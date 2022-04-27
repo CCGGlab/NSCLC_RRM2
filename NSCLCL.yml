@@ -1,0 +1,33 @@
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- python=3.7 # To avoid python conflicts with hisat2 & htseq (goes to 2.8 by default, conda version related?)
+- hisat2=2.1.0
+- htseq=0.11.2
+- r-base=4.0.3
+- r-essentials=4.0
+- bioconductor-deseq2=1.30.0
+- bioconductor-fgsea=1.16.0
+- bioconductor-biocinstaller
+- perl-env
+- bioconductor-ensdb.hsapiens.v86
+- r-openxlsx=4.2.3
+- r-xlconnect=1.0.3
+- r-ggrepel=0.9.1
+
+- r-shinyjs=2.0
+- r-shinydashboard=0.7
+- r-dt=0.16
+- r-shinycssloaders=1.0.0
+- r-shinybs=0.61
+- r-plotly=4.9.3
+- r-cowplot=1.1.1
+- r-pheatmap=1.0.12
+- r-ggdendro=0.1.22
+- r-survminer
+- bioconductor-tcgabiolinks
+- r-ggfortify
+# - r-ggvenn
+
+# - r-dqshiny=0.0.3 issues with this package, conda conlficts and its not in the CRAN rep anymore
